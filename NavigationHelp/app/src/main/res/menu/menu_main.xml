@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/agenda"
+        android:icon="@android:drawable/ic_menu_agenda"
+        android:orderInCategory="100"
+        android:title="Agenda"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/call"
+        android:icon="@android:drawable/ic_menu_call"
+        android:orderInCategory="100"
+        android:title="Call"
+        app:showAsAction="always" />
+
+
+    <item
+        android:id="@+id/add"
+        android:icon="@android:drawable/ic_menu_add"
+        android:orderInCategory="100"
+        android:title="Add"
+        app:showAsAction="ifRoom" />
+
+    <item
+        android:id="@+id/compass"
+        android:icon="@android:drawable/ic_menu_compass"
+        android:orderInCategory="100"
+        android:title="Compass"
+        app:showAsAction="always" />
+
+    <item
+        android:id="@+id/day"
+        android:orderInCategory="100"
+        android:title="Day"
+        app:showAsAction="always|withText" />
+</menu>
+
+<!--
+
+    119
+
+    android:orderInCategory is an integer attribute that dictates the order in which the menu items will appear within the menu when it is displayed.
+
+<menu
+xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<item
+    android:id="@+id/menu_item_first"
+    android:orderInCategory="1"
+    android:showAsAction="never"
+    android:title="@string/string_one"/>
+
+<item
+    android:id="@+id/menu_item_second"
+    android:orderInCategory="2"
+    android:showAsAction="never"
+    android:title="@string/string_two"/>
+
+</menu>
+
+-->
