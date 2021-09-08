@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MTodoApp</string>
+    <string name="enter_your_task">Enter your Task</string>
+    <string name="set_reminder_date_and_time">Set reminder date and time</string>
+    <string name="set_date">Set Date</string>
+    <string name="set_time">Set Time</string>
+    <string name="switcch_button_title" />
+    <string name="checkable" />
+    <string name="switch_button_title" />
+</resources>
